@@ -1,0 +1,10 @@
+name: ipymaps
+channels:
+  - conda-forge
+dependencies:
+  - geojson
+  - geopy
+  - ipyleaflet>=0.11.0
+  - ipympl
+  - pip:
+    - "-r requirements.txt"
