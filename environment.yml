@@ -4,7 +4,8 @@ channels:
 dependencies:
   - geojson
   - geopy
-  - ipyleaflet>=0.11.0
+  - ipyleaflet>=0.11.1
   - ipympl
+  - voila
   - pip:
     - "-r requirements.txt"
